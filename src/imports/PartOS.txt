@@ -1,0 +1,611 @@
+The user journey should feel like:
+I need to organize a team lunch in 3 minutes.
+Not
+I need to browse restaurants.
+That subtle difference changes almost every design decision.
+________________
+
+
+PRD + Prompt for Emergent / Figma Make
+________________
+
+
+Product Name (Working)
+PartyOS
+Corporate Experiences & Team Outing Booking Platform
+________________
+
+
+Product Vision
+Build a premium, modern booking platform that allows employees and corporate teams to discover, compare and instantly book experiences such as:
+* Team Lunches
+* Team Dinners
+* Office Parties
+* Rooftop Events
+* Club Nights
+* Team Celebrations
+* Offsites
+* Corporate Gatherings
+The platform should feel premium, minimal, elegant and trustworthy—not like an event marketplace.
+Design inspiration:
+* Airbnb
+* Apple
+* Notion
+* Stripe Checkout
+Use lots of whitespace, large cards, premium photography, subtle gradients and clean typography.
+________________
+
+
+Target Users
+Primary
+* HR
+* Admin Teams
+* Executive Assistants
+* Founders
+* Team Managers
+Secondary
+* Employees planning celebrations
+* Startup teams
+* Corporate groups
+________________
+
+
+MVP Goal
+Allow a user to:
+Search → Compare → Book → Pay Advance → Receive Confirmation
+within 5 minutes.
+________________
+
+
+Primary Navigation
+Top Navigation
+* Logo
+* Search
+* Experiences
+* My Bookings
+* Profile
+* Login
+Footer
+* About
+* Contact
+* Privacy
+* Terms
+* Become a Partner
+________________
+
+
+Complete User Flow
+Homepage
+
+
+↓
+
+
+Search Experience
+
+
+↓
+
+
+Search Results
+
+
+↓
+
+
+Property Details
+
+
+↓
+
+
+Login / Signup (if required)
+
+
+↓
+
+
+Booking Review
+
+
+↓
+
+
+Pay Advance
+
+
+↓
+
+
+Booking Confirmed
+
+
+↓
+
+
+Notifications
+
+
+↓
+
+
+Profile / Booking History
+
+________________
+SCREEN 1 — Homepage
+Minimal luxury landing page.
+Hero section:
+Headline
+Plan the Perfect Team Experience
+Subheading
+Discover and book amazing lunches, dinners, parties and corporate experiences.
+Large Search Card
+Fields:
+* City
+* Event Type
+* Team Size
+* Budget
+CTA
+"Find Experiences"
+Below Hero
+Featured Experiences
+Popular Venues
+How it Works (3 Steps)
+Testimonials
+Corporate Logos
+FAQ
+Footer
+________________
+
+
+Search Form
+Fields
+Location
+Dropdown
+Examples
+* Bangalore
+* Mumbai
+* Gurgaon
+* Hyderabad
+Experience Type
+Dropdown
+* Lunch
+* Dinner
+* Party
+* Club
+* Rooftop
+* Brewery
+* Team Outing
+Budget
+Slider
+₹500/person
+↓
+₹5000/person
+Team Size
+Dropdown
+5
+10
+20
+50
+100+
+Date
+Optional
+Search Button
+________________
+
+
+SCREEN 2 — Search Results
+Layout
+Left
+Filters
+Right
+Cards/List View
+Filters
+Budget
+Team Size
+Cuisine
+Experience Type
+Indoor / Outdoor
+Alcohol
+Veg / Non Veg
+Corporate Friendly
+Parking
+Live Music
+Rating
+Sort By
+Popularity
+Price Low
+Price High
+Highest Rated
+Recommended
+________________
+
+
+Experience Card
+Large Image
+Venue Name
+Location
+Experience Type
+Starting Price
+Estimated Total
+Rating
+Reviews Count
+Amenities
+Availability
+CTA
+View Details
+Example
+Skydeck Brewery
+Koramangala
+Dinner Experience
+₹1800/person
+⭐ 4.8
+450 Reviews
+Available Friday
+View Details
+________________
+
+
+SCREEN 3 — Login / Signup
+Triggered when user proceeds to booking.
+Options
+Continue with Mobile OTP
+Continue with Email
+Google Login (Optional Phase 2)
+Basic Details
+Name
+Company
+Phone
+Email
+Save User
+________________
+
+
+SCREEN 4 — Experience Detail Page
+Hero Gallery
+Property Images
+Overview
+Venue Description
+Packages
+Pricing
+Capacity
+Amenities
+Corporate Benefits
+Cancellation Policy
+Google Map
+Reviews
+Availability Calendar
+Package Comparison
+CTA
+Book This Experience
+________________
+
+
+Booking Widget
+Sticky Card
+Selected Package
+Date
+Time
+Number of Guests
+Estimated Cost
+Advance Required (10%)
+Book Now
+________________
+
+
+SCREEN 5 — Booking Review
+Summary
+Venue
+Package
+Guests
+Date
+Time
+Price Breakdown
+Taxes
+Advance
+Cancellation Terms
+Share with Colleagues
+Share Link
+WhatsApp
+Email
+Copy Link
+Note:
+Never expose negotiated pricing in shared links.
+________________
+
+
+SCREEN 6 — Payment
+Generate Booking ID
+Generate Invoice
+Pay 10% Advance
+Methods
+UPI
+Cards
+Net Banking
+Wallets
+Success Screen
+Booking Confirmed
+Download Invoice
+View Booking
+________________
+
+
+SCREEN 7 — Booking Confirmation
+Large Success Animation
+Booking ID
+Venue
+Date
+Time
+Advance Paid
+Pending Payment
+Vendor Contact
+Google Maps
+Share Booking
+Add to Calendar
+Email Confirmation
+WhatsApp Confirmation
+SMS Confirmation
+________________
+
+
+Notifications
+Channels
+Email
+SMS
+WhatsApp
+Types
+Booking Created
+Payment Received
+Booking Reminder
+Vendor Assigned
+Cancellation
+Offers
+User Preference
+Allow user to enable/disable notification channels from Profile.
+________________
+
+
+My Profile
+Minimal Dashboard
+Profile Photo
+Name
+Company
+Phone
+Email
+Linked Accounts
+LinkedIn
+Instagram
+Snapchat
+Booking History
+Upcoming
+Completed
+Cancelled
+Saved Experiences
+Membership Tier
+Silver
+Gold
+Platinum
+Rewards
+Coupons
+Experience Credits
+Referral Code
+________________
+
+
+Loyalty (Phase 2)
+Gamification
+Every booking earns points.
+Example
+2nd Booking
+Coffee Voucher
+5th Booking
+₹1000 Coupon
+10th Booking
+Premium Experience
+25th Booking
+VIP Tier
+Leaderboards
+Company Rankings
+Badges
+Top Organizer
+Office Hero
+Party Master
+________________
+
+
+Reviews
+Only after completed experience.
+Questions
+Overall Rating
+Food
+Service
+Ambience
+Would Recommend?
+Photos
+Review
+________________
+
+
+Backend Admin Dashboard
+Sections
+Dashboard
+Leads
+Bookings
+Customers
+Partners
+Payments
+Operations
+Analytics
+Settings
+________________
+
+
+Dashboard Widgets
+Today's Leads
+Today's Bookings
+Revenue
+Pending Payments
+Cancelled
+Upcoming Events
+Vendor Confirmations
+New Customers
+________________
+
+
+Lead Pipeline
+Inquiry
+↓
+Contacted
+↓
+Negotiation
+↓
+Booked
+↓
+Completed
+↓
+Repeat Customer
+________________
+
+
+Lead Details
+Company
+Employee
+Phone
+Email
+Requirement
+Budget
+Team Size
+Assigned Executive
+Notes
+Status Timeline
+________________
+
+
+Booking Management
+View Bookings
+Search
+Edit Booking
+Cancel Booking
+Assign Vendor
+Generate Invoice
+Export
+________________
+
+
+Vendor Management
+Venue Details
+Packages
+Availability
+Pricing
+Photos
+Contacts
+Commission
+Reviews
+________________
+
+
+Finance
+Invoices
+Advance Payments
+Pending Payments
+Vendor Payments
+Refunds
+GST Reports
+________________
+
+
+Analytics
+Revenue
+Conversion Rate
+Repeat Customers
+Top Cities
+Top Experiences
+Average Booking Value
+Cancellation Rate
+Customer Satisfaction
+________________
+
+
+Database (MVP)
+Users
+id
+name
+company
+email
+phone
+tier
+Bookings
+id
+user
+venue
+package
+date
+status
+advancePaid
+Experiences
+id
+venue
+city
+category
+price
+rating
+capacity
+Packages
+Reviews
+Notifications
+Payments
+Coupons
+Leads
+Partners
+________________
+
+
+Design System
+Theme
+Luxury Minimal
+Primary
+#111111
+Secondary
+White
+Accent
+Gold
+#C9A227
+Success
+Green
+Warning
+Orange
+Typography
+Inter
+SF Pro
+Spacing
+Large cards
+Rounded corners
+Glassmorphism (subtle)
+Premium photography
+Smooth animations
+No clutter
+________________
+
+
+MVP Features
+✅ Homepage
+✅ Search
+✅ Filters
+✅ Experience Listing
+✅ Experience Details
+✅ Login/Signup
+✅ Booking Flow
+✅ 10% Advance Payment
+✅ Invoice Generation
+✅ Email Confirmation
+✅ WhatsApp Confirmation
+✅ SMS Confirmation
+✅ Booking History
+✅ User Profile
+✅ Reviews
+✅ Admin Dashboard
+________________
+
+
+Final Prompt for Emergent / Figma Make
+Build a premium, responsive web application called PartyOS for booking corporate experiences such as team lunches, dinners, office parties, rooftop events, breweries, clubs, and celebrations. The experience should feel modern, elegant, and frictionless, inspired by Airbnb, Apple, Notion, and Stripe. Create an end-to-end MVP with the following flow: Homepage → Search → Results → Experience Details → Login/Signup → Booking Review → 10% Advance Payment → Booking Confirmation → Profile → Booking History. The homepage should feature a minimal hero with a prominent search widget (location, event type, team size, budget, optional date), featured venues, testimonials, FAQs, and corporate trust indicators. Search results should support filters (budget, team size, cuisine, experience type, amenities, ratings) and display venue cards with images, estimated pricing, reviews, availability, and CTAs. Experience pages should include galleries, package details, pricing, capacity, amenities, reviews, maps, cancellation policy, and a sticky booking widget. Authentication should support mobile OTP and email. Booking should present a summary, cost breakdown, cancellation policy, and allow sharing the event (excluding negotiated pricing) via WhatsApp, email, or link. Payments should collect a 10% advance, generate invoices, and send email/SMS/WhatsApp confirmations. User profiles should include booking history, linked social accounts, notification preferences, saved venues, rewards, and membership tiers. Build an admin dashboard for leads, bookings, vendors, finance, analytics, and customer management with a lead pipeline from inquiry to repeat customer. Use a luxury minimal design system with generous whitespace, premium imagery, rounded cards, subtle animations, dark typography on white backgrounds, and gold accent colors. Focus on a polished MVP while keeping the architecture extensible for future features like loyalty, AI recommendations, referrals, and corporate account management.
